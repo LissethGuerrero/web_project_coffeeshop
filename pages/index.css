@@ -1,4 +1,4 @@
-/* --------- Base --------- */
+
 .page {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
@@ -42,7 +42,7 @@
   width: 646px;
   height: 568px;
   object-fit: contain;
-   
+
 }
 
 
