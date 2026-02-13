@@ -47,23 +47,30 @@
 
       <img class="header__image" src="./images/inside_coffee_shop.png" alt="Ilustración de la cafetería" />
 
-      <div class="header__footer">
-        <p class="header__paragraph">
-          Horario:<br />
-          Lunes a Viernes (de 10:00h a 19:00h)<br />
-          Sábados y Domingos (de 11:00h a 18:00h)
-        </p>
+      <section id="footer">
+        <div class="header__footer">
+          <div class="header__footer">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)</p>
+            <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+            <p class="header__paragraph header__footer-right">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+          </div>
 
-        <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
-      </div>
+          <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+        </div>
+      </section>
+
     </header>
 
     <main class="content">
       <section class="recipes" id="recipes">
-        <h2 class="recipes__title">Recetas</h2>
-        <p class="recipes__subtitle">
-          Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.
-        </p>
+        <div class="recipes__headr">
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.
+          </h3>
+        </div>
 
         <div class="recipes__videos">
           <div class="recipes__video-item">
@@ -71,10 +78,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
 
-            <div class="recipes__video-caption">
-              <p class="recipes__video-text">Receta en Aeropress</p>
-              <p class="recipes__video-text">~5 min</p>
-            </div>
+            <a class="recipes__video-caption">Receta en Aeropress ~5 min</a>
           </div>
 
           <div class="recipes__video-item">
@@ -83,10 +87,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
 
-            <div class="recipes__video-caption">
-              <p class="recipes__video-text">Receta en cafetera francesa</p>
-              <p class="recipes__video-text">~15 min</p>
-            </div>
+            <a class="recipes__video-caption">Receta en cafetera francesa ~15 min</a>
           </div>
         </div>
       </section>
